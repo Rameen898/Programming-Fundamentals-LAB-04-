@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<string.h>
+#define USERNAME "admin"
+#define PASSWORD "898"
+int main()
+{
+	char username[50];
+	int password;
+	printf("enter username :\n");
+	scanf("%s",&username);
+	
+	printf("enter password :\n");
+	scanf("%d",&password);
+	if (username[0]=='a' &&
+	    username[1]=='d'&&
+    	username[2]=='m'&&
+	    username[3]=='i'&&
+	    username[4]=='n'&&
+	 password==898)
+	{
+		printf("Login Successful");
+	}
+	else{
+	
+	printf("Invalid Credentials");
+	
+}
+return 0;
+}
